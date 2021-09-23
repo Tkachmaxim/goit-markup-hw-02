@@ -1,0 +1,60 @@
+:root {
+  --font-description-color: #757575;
+  --font-heading-color: #212121;
+  --accent-color: #ffffff;
+  --hover-link-color: #2196f3;
+  --background-basic: #e5e5e5;
+  --background-team-color: #f5f4fa;
+  --background-footer-color: #2f303a;
+  --font-family: roboto;
+  --font-style: normal;
+  --font-size-header-footer-adv: 14px;
+  --font-size-command: 16px;
+  --hover-web-color: #2196f3;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+header a {
+  color: var(--font-heading-color);
+}
+
+.logo {
+  color: var(--font-heading-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.logo span {
+  color: var(--hover-link-color);
+}
+.logo: header a {
+  color: var(--font-heading-color);
+  font: var(--font-family);
+  font-style: var(--font-style);
+  font-size: var(--font-size-header-footer-adv);
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+  color: var(--hover-link-color);
+}
+.email:hover,
+.email:focus {
+  color: var(--hover-link-color);
+}
+.phone:hover,
+.phone:focus {
+  color: var(--hover-link-color);
+}
