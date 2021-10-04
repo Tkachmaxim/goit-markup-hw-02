@@ -1,0 +1,167 @@
+:root {
+  --font-heading-color: #212121;
+  --font-description-color: hsl(0, 0%, 46%);
+  --font-heading-color: #212121;
+  --accent-color: #ffffff;
+  --hover-link-color: #2196f3;
+  --background-basic: #e5e5e5;
+  --background-team-color: #f5f4fa;
+  --background-footer-color: #2f303a;
+  --font-family: "Roboto", sans-serif;
+  --font-size-header-footer-features: 14px;
+  --font-size-command: 16px;
+  --hover-web-color: #2196f3;
+}
+body {
+  letter-spacing: 00.03em;
+  font-family: var(--font-family);
+  color: var(--font-heading-color);
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--font-heading-color);
+}
+
+.logo span {
+  color: var(--hover-link-color);
+}
+
+.navigation a {
+  font-size: var(--font-size-command);
+  font-weight: 500;
+  line-height: 1.14;
+  color: var(--font-heading-color);
+}
+
+.link-portfolio.active {
+  color: var(--hover-link-color);
+}
+
+.email,
+.phone {
+  color: #757575;
+  line-height: 1.14;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+  color: var(--hover-link-color);
+}
+.email:hover,
+.email:focus {
+  color: var(--hover-link-color);
+}
+.phone:hover,
+.phone:focus {
+  color: var(--hover-link-color);
+}
+.hero {
+  background-color: var(--background-footer-color);
+}
+.hero-title {
+  color: var(--accent-color);
+  font-size: 44px;
+  font-weight: 900;
+  font-family: var(--font-family);
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.36;
+}
+
+.order {
+  color: var(--accent-color);
+  background-color: var(--hover-link-color);
+  font-size: 16px;
+  font-family: var(--font-family);
+  font-weight: 700;
+}
+
+.peculiarities h3 {
+  font-size: var(--font-size-header-footer-features);
+  line-height: 1.14;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.peculiarities p {
+  font-size: var(--font-size-header-footer-features);
+  color: #757575;
+}
+
+.expertise {
+  color: var(--font-heading-color);
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.team {
+  background-color: #f5f4fa;
+  text-align: center;
+}
+
+.team h2 {
+  font-size: 36px;
+}
+.team h3 {
+  font-weight: 500;
+  font-size: var(--font-size-command);
+}
+
+.team p {
+  color: var(--font-description-color);
+  font-size: var(--font-size-command);
+}
+
+.footer {
+  line-height: 1.71;
+  background-color: var(--background-footer-color);
+  color: var(--accent-color);
+  --font-heading-color: var(--accent-color);
+}
+
+/* страница портфолио */
+
+.filter button {
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: var(--font-size-command);
+  line-height: 1.625;
+  text-align: center;
+  border: 0ch;
+  border-radius: 4px;
+}
+
+button:focus,
+button:hover {
+  background-color: var(--hover-web-color);
+  color: var(--accent-color);
+}
+
+button {
+  cursor: pointer;
+}
+
+.projects h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.projects p {
+  font-size: var(--font-size-command);
+  color: #757575;
+  line-height: 1.875;
+}
